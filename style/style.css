@@ -1,0 +1,75 @@
+@charset "UTF-8";
+.header-logo {
+  width: 138px;
+  height: 30px;
+}
+
+.nav__button-burger {
+  background-color: #172755;
+  width: 30px;
+  height: 30px;
+  border: none;
+  padding: 0;
+}
+
+.nav__button-burger:hover {
+  cursor: pointer;
+}
+
+.nav__img-button {
+  color: #8794BA;
+  width: 30px;
+  height: 30px;
+}
+
+@font-face {
+  font-family: 'робото';
+  font-display: swap;
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: 'робото', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #8794BA;
+}
+
+.wrapper-top {
+  background-color: #172755;
+}
+
+.wrapper-top__wrapper-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper-top__button-sign {
+  font-size: 16px;
+  line-height: 19px;
+  margin-right: 20px;
+  margin-bottom: 4px;
+}
+
+.wrapper-top__wrapper-item {
+  margin: 0 auto;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 335px;
+  height: 70px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
