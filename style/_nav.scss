@@ -1,18 +1,42 @@
 
 .nav__button-burger {
-    background-color: #172755;
-    width: 30px;
-    height: 30px;
-    border: none;
-    padding: 0;
+  background-color: #172755;
+  width: 30px;
+  height: 30px;
+  border: none;
+  padding: 0;
 }
 
 .nav__button-burger:hover {
-    cursor: pointer;
+  cursor: pointer;
 } 
 
 .nav__img-button {
-    color: #8794BA;
-    width: 30px;
-    height: 30px;
+  color: #8794BA;
+  width: 30px;
+  height: 30px;
+}
+
+.nav__menu {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .nav {
+    order: 1;
+  }
+
+  .nav__menu {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .nav__item {
+    padding-right: 35px;
+  }
+
+  .nav__button-burger {
+    display: none;
+  }
+
 }
