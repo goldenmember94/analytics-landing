@@ -32,7 +32,11 @@
   }
 
   .nav__item {
-    padding-right: 35px;
+    margin-right: 35px;
+  }
+
+  .nav__item:hover {
+    cursor: pointer;
   }
 
   .nav__button-burger {

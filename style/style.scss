@@ -1,5 +1,6 @@
 @import 'header';
 @import 'nav';
+@import 'description-top';
 
 @font-face { 
   font-family: 'робото'; 
@@ -16,6 +17,7 @@ body {
   color: #8794BA;
   font-size: 16px;
   line-height: 19px;
+  min-width: 375px;
 
   // background-image: url('../image/background-top.png');
   // background-repeat: no-repeat;
@@ -40,9 +42,17 @@ body {
 
 }
 
+.wrapper-top__button-sign:hover {
+    cursor: pointer;
+  }
+
 .wrapper-top__button-sign-up {
   display: none;
 }
+
+.wrapper-top__button-sign-up:hover {
+    cursor: pointer;
+  }
 
 .wrapper-top__wrapper-item {
   margin: 0 auto;

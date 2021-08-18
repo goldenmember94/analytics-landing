@@ -46,10 +46,88 @@
     list-style-type: none;
   }
   .nav__item {
-    padding-right: 35px;
+    margin-right: 35px;
+  }
+  .nav__item:hover {
+    cursor: pointer;
   }
   .nav__button-burger {
     display: none;
+  }
+}
+
+.description-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 375px;
+  margin: 0 auto;
+  background-color: #172755;
+}
+
+.description-top__description-wrapper {
+  width: 335px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.description-top__head-description {
+  font-size: 31px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+
+.description-top__text-description {
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.description-top__decstop-text {
+  display: none;
+}
+
+.description-top__button {
+  height: 50px;
+  border: none;
+  background-color: #EF2A82;
+  border-radius: 68px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.description-top__button:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .description-top {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 1500px;
+  }
+  .description-top__description-wrapper {
+    width: 550px;
+    margin: 0;
+  }
+  .description-top__image {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 873px;
+    height: 555px;
   }
 }
 
@@ -68,6 +146,7 @@ body {
   color: #8794BA;
   font-size: 16px;
   line-height: 19px;
+  min-width: 375px;
 }
 
 .wrapper-top {
@@ -92,8 +171,16 @@ body {
   color: #8794BA;
 }
 
+.wrapper-top__button-sign:hover {
+  cursor: pointer;
+}
+
 .wrapper-top__button-sign-up {
   display: none;
+}
+
+.wrapper-top__button-sign-up:hover {
+  cursor: pointer;
 }
 
 .wrapper-top__wrapper-item {
