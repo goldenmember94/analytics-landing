@@ -1,12 +1,14 @@
 
 .description-top {
+  background-color: #172755;
+}
+
+.description-top__wrapper {
   display: flex;
   flex-direction: column;
   width: 375px;
+  height: 658px;
   margin: 0 auto;
-
-
-  background-color: #172755;
 }
 
 // .description-top__image {
@@ -24,6 +26,7 @@
   font-size: 31px;
   line-height: 120%;
   color: #FFFFFF;
+  margin-top: 0;
 }
 
 .description-top__text-description {
@@ -52,8 +55,14 @@
 
 @media (min-width: 1200px) {
   .description-top {
+    width: auto;
+    height: 700px;
+  }
+
+  .description-top__wrapper {
+    margin: 0 auto;
     flex-direction: row;
-    width: 1500px;
+    width: 1180px;
 
     // position: relative;
     // left: 160px;
@@ -65,15 +74,13 @@
     // order: 1;
     width: 550px;
     margin: 0;
+    margin-top: 135px;
+    
 
   }
 
   .description-top__image {
-    order: 2;
-    width: 873px;
-    height: 555px;
-    // position: relative;
-    // left: 900px;
+    display: none;
   }
 
 }
