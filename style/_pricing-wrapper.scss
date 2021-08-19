@@ -1,0 +1,32 @@
+
+.pricing__wrapper {
+  background-color: #172755;
+}
+
+.pricing__image-wrapper {
+  background-image: url('../image/mob/plans-mob.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.pricing__wrapper-top {
+  width: 355px;
+  margin: 0 auto;
+}
+
+.pricing__header {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.pricing__description {
+  font-size: 14px;
+  line-height: 140%;
+}
+
+@media (min-width: 1200px) {
+
+}
