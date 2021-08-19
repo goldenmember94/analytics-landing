@@ -1,6 +1,10 @@
 @import 'header';
 @import 'nav';
 @import 'description-top';
+@import 'main';
+@import 'main-item';
+@import 'list-item';
+@import 'pricing-wrapper';
 
 @font-face { 
   font-family: 'робото'; 
@@ -98,5 +102,9 @@ body {
     border-radius: 68px;
     
   }
+
+}
+
+@media (min-width: 1200px) {
 
 }
