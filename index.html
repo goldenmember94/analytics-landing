@@ -8,71 +8,80 @@
   <title>Document</title>
 </head>
 <body>
-  <section class="wrapper-top">
 
-    <div class="wrapper-top__wrapper-item">
+  <section class="top-image-wrapper">
 
-      <header class="header">
-        <img class="header-logo" src="./image/logo.png" alt="logo">
-      </header>
+    <section class="wrapper-top">
 
-      <div class="wrapper-top__wrapper-nav">
+      <div class="wrapper-top__wrapper-item">
 
-        <div class="wrapper-top__wrapper-button">
-          <button class="wrapper-top__button-sign">
-          Sign in
-          </button>
+        <header class="header">
+          <img class="header-logo" src="./image/logo.png" alt="logo">
+        </header>
 
-          <button class="wrapper-top__button-sign-up">
-          Sign up
-          </button>
-        </div>
-          
+        <div class="wrapper-top__wrapper-nav">
 
-        <nav class="nav">
+          <div class="wrapper-top__wrapper-button">
+            <button class="wrapper-top__button-sign">
+            Sign in
+            </button>
 
-          <ul class="nav__menu">
-            <li class="nav__item">Products</li>
-            <li class="nav__item">Pricing</li>
-            <li class="nav__item">FAQ</li>
-            <li class="nav__item">Blog</li>
-            <li class="nav__item">Blog</li>
-          </ul>
-
-          <button class="nav__button-burger">
-            <img class="nav__img-button" src="./image/menu_burger.png" alt="меню бургер">
-          </button>
+            <button class="wrapper-top__button-sign-up">
+            Sign up
+            </button>
+          </div>
             
-        </nav>
+
+          <nav class="nav">
+
+            <ul class="nav__menu">
+              <li class="nav__item">Products</li>
+              <li class="nav__item">Pricing</li>
+              <li class="nav__item">FAQ</li>
+              <li class="nav__item">Blog</li>
+              <li class="nav__item">Blog</li>
+            </ul>
+
+            <button class="nav__button-burger">
+              <img class="nav__img-button" src="./image/menu_burger.png" alt="меню бургер">
+            </button>
+              
+          </nav>
+
+        </div>
 
       </div>
 
-    </div>
+    </section>
 
-  </section>
+    <section class="description-top">
 
-  <section class="description-top">
+      <div class="description-top__wrapper">
 
-    <div class="description-top__wrapper">
+        <picture class="description-top__image"> 
+          <source  srcset="./image/main-screen.png" media="(min-width: 1200px)">             
+          <img  src="./image/mob/main-screen-mob.png" alt="main-screen">   
+        </picture>  
 
-      <picture class="description-top__image"> 
-        <source  srcset="./image/main-screen.png" media="(min-width: 1200px)">             
-        <img  src="./image/mob/main-screen-mob.png" alt="main-screen">   
-      </picture>  
+        <div class="description-top__description-wrapper">
 
-      <div class="description-top__description-wrapper">
+          <h1 class="description-top__head-description">Monitor your business on real-time dashboard</h1>
 
-        <h1 class="description-top__head-description">Monitor your business on real-time dashboard</h1>
+          <p class="description-top__text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. <span class="description-top__decstop-text">Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam.</span> </p>
+          
+          <button class="description-top__button">Try for free</button>
 
-        <p class="description-top__text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. <span class="description-top__decstop-text">Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam.</span> </p>
-        
-        <button class="description-top__button">Try for free</button>
+        </div>
 
       </div>
 
-    </div>
+    </section>
 
   </section>
+
+
+
+
 
   <main class="main">
 
@@ -152,8 +161,12 @@
           </picture>
 
         </div>
-
+        
     </section>
+
+  </main>
+
+  <section class="background-bottom">
 
     <section class="pricing__wrapper">
 
@@ -165,19 +178,29 @@
       </div>
 
       <div class="pricing__image-wrapper"></div>
-
-      <!-- <picture>
-        <source srcset="./image/plans.png" media="(min-width: 1200px)">
-        <img src="./image/mob/plans-mob.png" alt="">
-      </picture> -->
       
     </section>
 
-  </main>
+    <footer class="footer">
+      <img width="138px" height="30px" src="./image/footer/logo.png" alt="">
 
-  <footer class="footer">
+      <div class="footer__links-center">
+        <a class="footer__link" href="#">Product</a>
+        <a class="footer__link" href="#">Pricing Plans</a>
+        <a class="footer__link" href="#">FAQ</a>
+        <a class="footer__link" href="#">Blog</a>
+      </div>
 
-  </footer>
+      <div class="footer__links">
+        <a href="#"><img width="10px" height="20px" src="./image/footer/Facebook.png" alt=""></a>
+        <a href="#"><img width="24.6px" height="20px" src="./image/footer/Twitter.png" alt=""></a>
+        <a href="#"><img width="20px" height="20px" src="./image/footer/Instagram.png" alt=""></a>
+      </div>
+    </footer>
+
+  </section>
+
+  
     
 </body>
 </html>

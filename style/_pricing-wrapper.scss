@@ -1,8 +1,4 @@
 
-.pricing__wrapper {
-  background-color: #172755;
-}
-
 .pricing__image-wrapper {
   background-image: url('../image/mob/plans-mob.png');
   background-position: center;
@@ -20,6 +16,7 @@
   color: #FFFFFF;
   font-size: 30px;
   line-height: 35px;
+  padding-top: 185px;
 }
 
 .pricing__description {
@@ -28,5 +25,32 @@
 }
 
 @media (min-width: 1200px) {
+
+  .pricing__wrapper-top {
+    width: 650px;
+  }
+
+  .pricing__image-wrapper {
+    background-image: url('../image/plans.png');
+    height: 500px;
+  }
+
+  .pricing__wrapper {
+    margin: 0 auto;
+  }
+
+  .pricing__header {
+    font-size: 40px;
+    line-height: 47px;
+  }
+
+  .pricing__description {
+    font-size: 14px;
+    line-height: 140%;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
 
 }
