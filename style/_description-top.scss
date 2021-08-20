@@ -55,7 +55,9 @@
     flex-direction: row;
     width: auto;
     position: relative;
-    right: -200px;
+    // right: -200px;
+
+    width: 1180px;
   }
 
   .description-top__description-wrapper {
@@ -73,6 +75,8 @@
   .description-top__image {
     display: inline-block;
     order: 2;
+    position: absolute;
+    right: -300px;
   }
 
 }

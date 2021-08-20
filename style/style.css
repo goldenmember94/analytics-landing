@@ -124,7 +124,7 @@
             flex-direction: row;
     width: auto;
     position: relative;
-    right: -200px;
+    width: 1180px;
   }
   .description-top__description-wrapper {
     -webkit-box-ordinal-group: 2;
@@ -143,6 +143,8 @@
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+    position: absolute;
+    right: -300px;
   }
 }
 
