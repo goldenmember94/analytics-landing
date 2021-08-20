@@ -1,0 +1,40 @@
+
+.footer {
+  width: 335px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__links {
+  width: 135px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__links-center {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+
+  .footer {
+    width: 1180px;
+    padding-top: 60px;
+  }
+
+  .footer__links-center {
+    display: flex;
+    width: 293px;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .footer__link {
+    font-size: 14px;
+    line-height: 16px;
+    color: #8794BA;
+  }
+
+}
