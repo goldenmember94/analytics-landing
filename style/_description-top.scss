@@ -60,6 +60,13 @@
     width: 1180px;
   }
 
+  .description-top__image {
+      display: inline-block;
+      order: 2;
+      position: absolute;
+      right: -300px;
+    }
+
   .description-top__description-wrapper {
     order: 1;
     width: 550px;
@@ -70,13 +77,6 @@
 
   .description-top__button {
     width: 238px;
-  }
-
-  .description-top__image {
-    display: inline-block;
-    order: 2;
-    position: absolute;
-    right: -300px;
   }
 
 }
